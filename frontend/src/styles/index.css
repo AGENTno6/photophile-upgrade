@@ -1,14 +1,7 @@
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
-}
-
-input, label {
-  display: block;
-}
-
-input {
-  margin-bottom: 1rem;
+  background-color: #84BCDA;
 }
 
 header {
@@ -37,13 +30,6 @@ nav ul {
 nav a {
   display: block;
   color: #FFF;
-}
-
-form {
-  padding: 1rem;
-  border: 1px solid #CCC;
-  width: 15rem;
-  margin: 1rem auto;
 }
 
 /* automatically added by NavLink component */

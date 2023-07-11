@@ -25,8 +25,7 @@ export default function LoginPage() {
   return <>
     <Form onSubmit={handleSubmit}
     style={{
-      borderRadius:30,
-      marginTop:200,
+      width:300
     }}
     >
       <Label style={{
@@ -53,7 +52,7 @@ export default function LoginPage() {
         />
       </FormGroup>
       <Button color="info" style={{
-        marginLeft: 65
+        alignSelf:"center"
         }}>
         Login    
       </Button>
